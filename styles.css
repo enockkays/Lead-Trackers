@@ -1,0 +1,83 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-size: cover;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px;
+    min-width: 400px;
+}
+
+.custom-input {
+    position: relative;
+    width: 300px;
+  }
+#input-el {
+    width: 127%;
+    border: 1px solid #00e5ff;
+    border-radius: 150px;
+    padding: 10px 80px 10px 20px; 
+    line-height: 1.57142857;
+    background-color: rgb(233, 240, 241);
+    border: 1px solid #00e5ff;
+    border-radius: 2px;
+    box-sizing: border-box;
+    box-shadow: none;
+    margin: 0px;
+    }
+#input-btn {
+    padding: 6px 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid transparent;
+    margin-top: 15px;
+    border-radius: 2px;
+    background:#01d0e7;
+    color: #fff;
+}
+
+#save-btn {
+  padding: 6px 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  border: 2px solid transparent;
+  margin-top: 15px;
+  border-radius: 2px;
+  background:#01d0e7;
+  color: #fff;
+}
+
+#delete-btn {
+  padding: 6px 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  border: 1px;
+  margin-left: 10px;
+  border-radius: 2px;
+  color: #f70000;
+  background:#ffffff;
+  border: 2px solid;
+}
+
+ul {
+  margin-top: 20px;
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin-top: 5px;
+}
+
+li a {
+  color:#00e5ff;
+}
